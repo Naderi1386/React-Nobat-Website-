@@ -1,0 +1,19 @@
+.line {
+  position: relative;
+}
+
+.line:before {
+  content: '';
+  height: 60%; 
+  width: 1px;
+  border-radius:2px;
+  
+  position: absolute;
+  left: 0;
+  top: 9%;
+  bottom:0;
+  margin:auto 0px;
+
+  
+  background-color: #0f9daf;
+}

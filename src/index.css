@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Gandom';
+  src: url('/src/assets/fonts/Gandom.ttf') format('truetype');
+
+}
+
+body {
+  font-family: 'Gandom', sans-serif;
+}
+
+
+@layer components {
+  .input {
+    @apply bg-searchBox-500 w-full sm:w-[14rem] text-[0.9rem] md:text-base  md:w-[18rem] p-[0.6rem] outline-none rounded-[0.5rem] focus:ring-[2px] focus:ring-gray-500/50;
+  }
+}
